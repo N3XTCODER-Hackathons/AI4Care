@@ -2,7 +2,7 @@
 
 ## Overview
 
-|METADATA||
+|METADATA|
 |-----|------|
 |**topic**|Pain Scores |
 |**soure**|patient interview|
