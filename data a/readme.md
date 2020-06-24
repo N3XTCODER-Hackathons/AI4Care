@@ -3,7 +3,7 @@
 ## Overview
 
 |METADATA|
-|-----|------|
+|:-----|------|
 |**topic**|Pain Scores |
 |**soure**|patient interview|
 |**type**|numerical discrete |
