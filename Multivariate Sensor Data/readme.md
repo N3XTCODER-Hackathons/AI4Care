@@ -5,12 +5,12 @@
 |METADATA||
 |:-----|------|
 |**topic**| |
-|**soure**||
-|**type**| |
-|**format**|csv, json|
-|**licence**||
+|**soure**|lab recording|
+|**type**|sensor data|
+|**format**|csv|
+|**licence**|[Open Data Commons Attribution Licence (ODC-By)](https://opendatacommons.org/licenses/by/summary/)|
 |**publisher**|Charité|
-|**publishing date/period**||
+|**publishing date/period**|TBA|
 
 ## Short description
 
