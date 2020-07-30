@@ -24,7 +24,7 @@ Raw data shows every measuring of the data, while aggregates sums them up over t
 **bladder_filling.csv:** Bladder data in percent filling
 
 
-**Scale ("Body"):**
+### Scale ("Body"):
 
 **weight.csv:** Weights Measurements
 - Weight : Weight (kg)
@@ -37,7 +37,7 @@ Raw data shows every measuring of the data, while aggregates sums them up over t
 - Diastolic : (mmHg)
 
 
-**Smart Watch ("Steel HR"):**
+### Smart Watch ("Steel HR"):
 
 **activities.csv:** Activities (Walking, Cycling, Other) history
 - calories: Active calories burned (in Kcal)
@@ -68,7 +68,7 @@ Raw data shows every measuring of the data, while aggregates sums them up over t
 **raw_tracker_steps.csv:** Steps datas
 
 
-**Sleep mattress:**
+### Sleep mattress:
 
 **raw_sleep-monitor_hr.csv:** Sleep monitor heart rate datas
 - Duration : (seconds)
