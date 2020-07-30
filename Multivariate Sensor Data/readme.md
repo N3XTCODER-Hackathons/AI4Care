@@ -14,7 +14,7 @@
 
 ## Short description
 This data is from an elderly patient of the geriatric departement of the Charit√©, gathered by multiple wearables of the brand Withings over the course of 16 days.
-
+Raw data shows every measuring of the data, while aggregates sums them up over the respective day.
 
 ## Measures and units
 
@@ -28,13 +28,13 @@ This data is from an elderly patient of the geriatric departement of the Charit√
 - distance: Distance in meters
 - elevation: Number of floors climbed 
 
-**aggregates_calories_earned.csv:** Active calories (Kcal) burned regrouped by days
+**aggregates_calories_earned.csv:** Active calories (Kcal) burned regrouped by days (raw data in the respective .csv)
 
-**aggregates_calories_passive.csv:** Passive calories (Kcal) burned regrouped by days
+**aggregates_calories_passive.csv:** Passive calories (Kcal) burned regrouped by days (raw data in the respective .csv)
 
-**aggregates_distance.csv:** Travelled distance (meters) regrouped by days
+**aggregates_distance.csv:** Travelled distance (meters) regrouped by days (raw data in the respective .csv)
 
-**aggregates_steps.csv:** Steps datas regrouped by days
+**aggregates_steps.csv:** Steps datas regrouped by days (raw data in the respective .csv)
 - Value : (steps number)
 
 **bladder_filling.csv:** Bladder data in percent filling
