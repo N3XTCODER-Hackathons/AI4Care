@@ -1,6 +1,4 @@
-###############################################
-### This file contains some further potentially useful links to sources and materials regarding Nursing Care (especially in German context)
-###############################################
+# This file contains some further potentially useful links to sources and materials regarding Nursing Care (especially in German context)
 
 ### Bundesgesundheitsministerium: Qualität und Transparenz in der Pflege
 https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/qualitaet-und-transparenz-in-der-pflege.html
