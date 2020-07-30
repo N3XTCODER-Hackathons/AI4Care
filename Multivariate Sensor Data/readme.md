@@ -20,14 +20,16 @@ This data is from an elderly patient of the geriatric departement of the Charit√
 
 **activities.csv:** Activities history
 
-**aggregates_calories_earned.csv:** Active calories burned regrouped by days
+**aggregates_calories_earned.csv:** Active calories (kcal) burned regrouped by days
 
-**aggregates_calories_passive.csv:** Passive calories burned regrouped by days
+**aggregates_calories_passive.csv:** Passive calories (kcal) burned regrouped by days
 
 **aggregates_distance.csv:** Travelled distance regrouped by days
 
 **aggregates_steps.csv:** Steps datas regrouped by days
 - Value : (steps number)
+
+**bladder_filling.csv:** Bladder data in percent filling
 
 **bp.csv:** Blood Pressure Data
 - Heart Rate : (bpm)
@@ -52,6 +54,8 @@ This data is from an elderly patient of the geriatric departement of the Charit√
 - Duration : (seconds)
 - Value : (0 -> not snoring; 1 -> snoring)
 
+**raw_tracker_calories-earned.csv:** Active calories (kcal) burned raw data
+
 **raw_tracker_elevation.csv:** To complete
 
 **raw_tracker_hr.csv:** Heart rate datas
@@ -61,6 +65,8 @@ This data is from an elderly patient of the geriatric departement of the Charit√
 - Duration: (seconds)
 
 **raw_tracker_steps.csv:** Steps datas
+
+**sleeps.csv:** Sleep state, snoring and heart rate datas
 
 **weight.csv:** Weights Measurements
 - Weight : Weight (kg)
