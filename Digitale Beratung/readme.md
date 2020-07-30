@@ -27,3 +27,15 @@ The **department** collection contains items with **Type**, **Categories** and *
  
 ### A typical workflow...
 ... might consist of finding requirements in the request cases, based on the Wordpress posts, cluster all that into logical groups and matching it with the data from the LiteDB. 
+
+## Inspiration: Optimised search experience
+
+https://mitpflegeleben.de/informationsportal/ We can see various searches which need improvement...
+
+1. import wp_posts.sql into your db
+2. extract the wp_content field and strip HTML 
+3. index in your favourite search engine (solr, elasticsearch, https://www.algolia.com/) and store the content for later retreiveal
+4. define synonyms and stemming rules (e.g. German language plural matching, domain-specific synonyms like "demenz" -> "althzeimers")
+5. qualitatively evaluate search results using the stored content
+
+Deliverable: configuration for search engine, such that the same can be adapted for the production website.
