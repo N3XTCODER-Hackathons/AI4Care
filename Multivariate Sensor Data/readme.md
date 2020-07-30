@@ -18,7 +18,7 @@ This data is from an elderly patient of the geriatric departement of the Charit√
 
 ## Measures and units
 
-**activities.csv:** Activities history
+**activities.csv:** Activities (Walking, Cycling, Other) history
 - calories: Active calories burned (in Kcal)
 - intensity: Duration of intense activities (in seconds)
 - hr_zone_0: Duration in seconds when heart rate was in a light zone
