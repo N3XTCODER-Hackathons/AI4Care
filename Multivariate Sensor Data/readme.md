@@ -29,7 +29,7 @@ Raw data shows every measuring of the data, while aggregates sums them up over t
 **weight.csv:** Weights Measurements
 - Weight : Weight (kg)
 
-**Blood Pressure Meter ("BPM+"):**
+### Blood Pressure Meter ("BPM+"):
 
 **bp.csv:** Blood Pressure Data
 - Heart Rate : (bpm)
