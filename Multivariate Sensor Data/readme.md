@@ -14,9 +14,30 @@
 
 ## Short description
 This data is from an elderly patient of the geriatric departement of the Charité, gathered by multiple wearables of the brand Withings over the course of 16 days.
-Raw data shows every measuring of the data, while aggregates sums them up over the respective day.
+Raw data shows every measuring of the data, while aggregates sums them up over the respective day. Since multiple wearables report the heart rate, it is measured in different points of time by different wearables.
 
 ## Measures and units
+
+**height.csv:** Height Measurements
+- Height : (meters)
+
+**bladder_filling.csv:** Bladder data in percent filling
+
+
+**Scale ("Body"):**
+
+**weight.csv:** Weights Measurements
+- Weight : Weight (kg)
+
+**Blood Pressure Meter ("BPM+"):**
+
+**bp.csv:** Blood Pressure Data
+- Heart Rate : (bpm)
+- Systolic : (mmHg)
+- Diastolic : (mmHg)
+
+
+**Smart Watch ("Steel HR"):**
 
 **activities.csv:** Activities (Walking, Cycling, Other) history
 - calories: Active calories burned (in Kcal)
@@ -37,15 +58,17 @@ Raw data shows every measuring of the data, while aggregates sums them up over t
 **aggregates_steps.csv:** Steps datas regrouped by days (raw data in the respective .csv)
 - Value : (steps number)
 
-**bladder_filling.csv:** Bladder data in percent filling
+**raw_tracker_calories-earned.csv:** Active calories (Kcal) burned raw data
 
-**bp.csv:** Blood Pressure Data
+**raw_tracker_distance.csv:** Travelled distance (meters)
+
+**raw_tracker_hr.csv:** Heart rate datas
 - Heart Rate : (bpm)
-- Systolic : (mmHg)
-- Diastolic : (mmHg)
 
-**height.csv:** Height Measurements
-- Height : (meters)
+**raw_tracker_steps.csv:** Steps datas
+
+
+**Sleep mattress:**
 
 **raw_sleep-monitor_hr.csv:** Sleep monitor heart rate datas
 - Duration : (seconds)
@@ -62,22 +85,11 @@ Raw data shows every measuring of the data, while aggregates sums them up over t
 - Duration : (seconds)
 - Value : (0 -> not snoring; 1 -> snoring)
 
-**raw_tracker_calories-earned.csv:** Active calories (Kcal) burned raw data
-
-**raw_tracker_distance.csv:** Travelled distance (meters)
-
-**raw_tracker_hr.csv:** Heart rate datas
-- Heart Rate : (bpm)
-
 **raw_tracker_sleep-state.csv:** Sleep trackers datas
 - Duration: (seconds)
 
-**raw_tracker_steps.csv:** Steps datas
-
 **sleep.csv:** Sleep state, snoring and heart rate datas
 
-**weight.csv:** Weights Measurements
-- Weight : Weight (kg)
 
 
 
