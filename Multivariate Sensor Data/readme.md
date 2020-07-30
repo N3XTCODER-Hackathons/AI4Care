@@ -19,12 +19,20 @@ This data is from an elderly patient of the geriatric departement of the Charit√
 ## Measures and units
 
 **activities.csv:** Activities history
+- calories: Active calories burned (in Kcal)
+- intensity: Duration of intense activities (in seconds)
+- hr_zone_0: Duration in seconds when heart rate was in a light zone
+- hr_zone_1: Duration in seconds when heart rate was in a moderate zone
+- hr_zone_2: Duration in seconds when heart rate was in an intense zone
+- hr_zone_3: Duration in seconds when heart rate was in maximal zone
+- distance: Distance in meters
+- elevation: Number of floors climbed 
 
-**aggregates_calories_earned.csv:** Active calories (kcal) burned regrouped by days
+**aggregates_calories_earned.csv:** Active calories (Kcal) burned regrouped by days
 
-**aggregates_calories_passive.csv:** Passive calories (kcal) burned regrouped by days
+**aggregates_calories_passive.csv:** Passive calories (Kcal) burned regrouped by days
 
-**aggregates_distance.csv:** Travelled distance regrouped by days
+**aggregates_distance.csv:** Travelled distance (meters) regrouped by days
 
 **aggregates_steps.csv:** Steps datas regrouped by days
 - Value : (steps number)
@@ -54,9 +62,9 @@ This data is from an elderly patient of the geriatric departement of the Charit√
 - Duration : (seconds)
 - Value : (0 -> not snoring; 1 -> snoring)
 
-**raw_tracker_calories-earned.csv:** Active calories (kcal) burned raw data
+**raw_tracker_calories-earned.csv:** Active calories (Kcal) burned raw data
 
-**raw_tracker_elevation.csv:** To complete
+**raw_tracker_distance.csv:** Travelled distance (meters)
 
 **raw_tracker_hr.csv:** Heart rate datas
 - Heart Rate : (bpm)
@@ -66,7 +74,7 @@ This data is from an elderly patient of the geriatric departement of the Charit√
 
 **raw_tracker_steps.csv:** Steps datas
 
-**sleeps.csv:** Sleep state, snoring and heart rate datas
+**sleep.csv:** Sleep state, snoring and heart rate datas
 
 **weight.csv:** Weights Measurements
 - Weight : Weight (kg)
